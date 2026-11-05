@@ -31,7 +31,7 @@ app/src/main/java/com/miku/mcp/
 ## Build
 
 1. Clone the repository.
-2. Provide the `cloudflared` binary as `app/src/main/jniLibs/arm64-v8a/libcloudflared.so` (it is not committed).
+2. The `cloudflared` binary is already included at `app/src/main/jniLibs/arm64-v8a/libcloudflared.so` (see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)).
 3. (Optional, for release builds) create a `release.properties` file with `storeFile`, `storePassword`, `keyAlias` and `keyPassword`. This file and your keystore are git-ignored and must never be committed.
 4. Build with `./gradlew assembleDebug`.
 
@@ -39,7 +39,7 @@ app/src/main/java/com/miku/mcp/
 
 Released under the [MIT License](LICENSE): free to use, modify and distribute.
 
-Third-party components keep their own licenses (for example `cloudflared` and the JetBrains Mono font).
+Third-party components keep their own licenses, see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 ## Status
 

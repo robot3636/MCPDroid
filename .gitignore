@@ -99,8 +99,6 @@ build/
 .cg/
 .kotlin/
 
-# The cloudflared binary is downloaded and patched by scripts/prepare-cloudflared.sh
-app/src/main/jniLibs/arm64-v8a/libcloudflared.so
 
 # AndroidIDE internal state and editor backup files
 .androidide/
