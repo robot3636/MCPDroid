@@ -103,3 +103,7 @@ build/
 # AndroidIDE internal state and editor backup files
 .androidide/
 *.bak
+
+# Patched cloudflared binary: generate it with the script from
+# https://github.com/robot3636/cloudflared-android (not committed, 36 MB)
+app/src/main/jniLibs/arm64-v8a/libcloudflared.so
